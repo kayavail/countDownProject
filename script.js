@@ -27,7 +27,7 @@ var daysLeft = Math.floor((hrLeft)/24)
 var weeksLeft = Math.floor((daysLeft)/7)
 	// var secLeft = Math.floor((myBirthday-today)/1000)
 	if(secLeft>0){
-		document.getElementById("event").innerHTML= weeksLeft+"Weeks || "+daysLeft+" Days || "+hrLeft+" Hrs || "+minLeft+" Mins || "+secLeft+" Seconds";
+		document.getElementById("event").innerHTML= weeksLeft+"Weeks || "+daysLeft+" Days || "+hrLeft+" Hrs || "+minLeft+" Mins || "+secLeft+" Secs";
 		secLeft--
 	}
 	else{
