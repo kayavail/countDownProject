@@ -38,17 +38,17 @@ var weeksLeft = Math.floor((daysLeft)/7)
 var timer = setInterval(countdown)
 
 
-function doubleClick(){
-	var square = document.getElementById("event").style.backgroundColor = "blue";
-}
+// function doubleClick(){
+// 	var square = document.getElementById("event").style.backgroundColor = "blue";
+// }
 
-function reverseColor(){
-	var square = document.getElementById("event").style.backgroundColor = "green";
-}
+// function reverseColor(){
+// 	var square = document.getElementById("event").style.backgroundColor = "green";
+// }
 
-function mouseOver(){
-	var square = document.getElementById("event").style.backgroundColor = "grey";
-}
+// function mouseOver(){
+// 	var square = document.getElementById("event").style.backgroundColor = "grey";
+// }
 
  //"<br>"
 
