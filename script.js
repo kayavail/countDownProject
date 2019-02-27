@@ -36,10 +36,22 @@ var weeksLeft = Math.floor((daysLeft)/7)
 	
 }
 var timer = setInterval(countdown)
+"<br>"
 
 
+function doubleClick(){
+	var square = document.getElementById("event").style.backgroundColor = "blue";
+}
 
-// "<br>"
+function reverseColor(){
+	var square = document.getElementById("event").style.backgroundColor = "green";
+}
+
+function mouseOver(){
+	var square = document.getElementById("event").style.backgroundColor = "grey";
+}
+
+ "<br>"
 
 // getElementById('event').innerHTML
 
