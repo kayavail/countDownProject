@@ -54,5 +54,5 @@ function back(){
 var hrefs = window.location.href;
 var ports = window.location.port;
 
-document.write(hrefs);
-document.write(ports);
+//document.write(hrefs);
+//document.write(ports);
