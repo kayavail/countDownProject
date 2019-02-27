@@ -5,22 +5,22 @@
 	<title>Student Project</title>
 	<style>
 		
-		body {
-			background-image: linear-gradient(to right, grey, black); 
+				body {
+			background-image: linear-gradient(to right, black, grey);
+			/*background-color: black; */
 			padding: 10px;
 			width: 90%;
 			margin: auto;
+
 		}
-		
-		#event:hover{
-			background-color: grey;
-		}
-		
-		hi:hover{
+		#event, h1:hover{
 			background-color: grey;
 		}
 
-
+/*		h1:hover{
+			background-color: grey;
+		}
+*/
 		#event{
 			background-color:green; 
 			width: 600px; 
@@ -31,9 +31,11 @@
 			margin: auto; 
 			border-radius: 25px;
 			padding: 10px;
-
+			/*border-left-color: blue;
+			border-width: 2px;*/
 		}
-			h1{
+
+		h1{
 			text-align: center; 
 			color: white; 
 			background-color: red;
@@ -41,16 +43,15 @@
 			border-radius: 25px;
 			text-shadow: 2px 2px 4px #000000;
 		}
-			div#event {
+		div#event {
 			width: 600px;
-			-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-			transition: width 2s, height 2s, transform 3s;
+			 -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+			  transition: width 2s, height 2s, transform 3s;
 		}
 
-			div#event:hover {
-		  	width: 1100px;
+		div#event:hover {
+		  width: 1100px;
 		}
-
 	</style>
 </head>
 <body>
