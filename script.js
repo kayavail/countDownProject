@@ -36,7 +36,6 @@ var weeksLeft = Math.floor((daysLeft)/7)
 	
 }
 var timer = setInterval(countdown)
-"<br>"
 
 
 function doubleClick(){
@@ -51,7 +50,7 @@ function mouseOver(){
 	var square = document.getElementById("event").style.backgroundColor = "grey";
 }
 
- "<br>"
+ //"<br>"
 
 // getElementById('event').innerHTML
 
