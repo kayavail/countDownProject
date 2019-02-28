@@ -17,7 +17,7 @@
 // document.write("Weeks to my birthday: "+weeksLeft+"<br>")
 
 function countdown(){
-	var myBirthday = new Date(2019, 7, 22, 0, 0, 0,);
+	var myBirthday = new Date(2019, 2, 1, 0, 0, 0,);
 var today = new Date().getTime()
 var milliSecLeft = Math.floor((myBirthday - today))
 var secLeft = Math.floor((milliSecLeft)/1000)
