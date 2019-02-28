@@ -31,7 +31,8 @@ var weeksLeft = Math.floor((daysLeft)/7)
 		secLeft--
 	}
 	else{
-		clearInterval(timer)
+// 		clearInterval(timer)
+		document.getElementById("event").innerHTML= "Happy Birthday to you! Momoh, Rahmat Blessing"
 	}
 	
 }
