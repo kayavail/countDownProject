@@ -32,7 +32,7 @@ var weeksLeft = Math.floor((daysLeft)/7)
 	}
 	else{
 // 		clearInterval(timer)
-		document.getElementById("event").innerHTML= "Happy Birthday to you! Momoh, Rahmat Blessing"
+		document.getElementById("event").innerHTML= "Input your next celebration"
 	}
 	
 }
