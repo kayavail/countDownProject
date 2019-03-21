@@ -5,13 +5,13 @@
 	<style>
 		
 		body {
-			background-image: linear-gradient(to right, black, grey); 
+			background-color: black; 
 			padding: 10px;
 			width: 90%;
 			margin: auto;
 		
 		}
-		#event:hover{
+		#event, h1:hover{
 			background-color: grey;
 		}
 
@@ -30,22 +30,45 @@
 		h1{
 			text-align: center; 
 			color: white; 
-			background-color: red;
+			background-color: yellow;
 			padding: 20px;
 			border-radius: 25px;
-			text-shadow: 2px 2px 4px #000000;
+			text-shadow: 0 0 3px #FF0000;
 		}
+
+				p{
+			background-color: green;
+			text-align: center;
+			color: white;
+			border-radius: 25px;
+			width: 250px;
+			margin: auto;
+			margin-top: 80px;
+			padding: 5px;
+		}
+		#effect:hover{
+			-webkit-transform: rotate(45deg);
+			-webkit-transform-origin: 40% 40%;
+			/*transform: scaleY(1.5);*/
+			 /*transform: skewY(130deg)*/
+				 /*transform: rotate(180deg);*/
+			/*  -webkit-transform: rotateX(150deg);  Safari 
+			  transform: rotateX(150deg);*/
+			}
 
 	</style>
 </head>
 <body>
 	<h1>Welcome to my project</h1>
 	<h1>My Birthday's Countdown</h1>
-	<div id="event">
-		
+	<div id="event" ondblclick="doubleClick()" onmouseout="reverseColor()" onmouseover="mouseOver()">
+	</div>
+	<br>
+		<div id="effect">
+		<p>Till my birthday</p>
 	</div>
 	<div>
-		<button type="button" onclick="back()">Go To Page</button>
+		<button type="button" onclick="back()">Go Back</button>
 		</div>
 
 		<script type="text/javascript" src="script.js"></script>
